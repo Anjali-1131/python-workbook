@@ -19,7 +19,7 @@ def calculator(a, b, operation):
         "/" : (a/b), 
         "*" : (a*b)
         }
-    return calculation.get(operation, "Enter a valid operation!")
+    return calculation.get(operation, "Enter a validoperation!")
     
 firstNumber = int(input("Enter the 1st Number:"))
 secondNumber = int(input("Enter the 2nd Number:"))
